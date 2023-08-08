@@ -1,0 +1,15 @@
+/* CSS for the chart container */
+.chart-container {
+    width: 600px; /* Set the desired width */
+    height: 400px; /* Set the desired height */
+    margin: 20px auto; /* Adjust margins as needed */
+    border: 1px solid #ccc; /* Optional: Add a border for visualization */
+    padding: 10px; /* Optional: Add padding for better presentation */
+  }
+  
+  /* CSS for the chart */
+  .chart {
+    width: 100%; /* Make the chart take the full width of its container */
+    height: 100%; /* Make the chart take the full height of its container */
+  }
+  
