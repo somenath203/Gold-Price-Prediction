@@ -67,7 +67,7 @@
   /* CSS for the chart bars */
   .chart-bars {
     
-    transition:all 10s ease;
+    transition:all 5s ease;
   }
   .sub-container{
     display:flex;
@@ -92,6 +92,9 @@
     
     /* text-shadow: 1px 2px 1px #fff; */
   }
+
+
+
   @media screen and (max-width: 768px){
     .main-container{
       overflow: hidden;
@@ -127,6 +130,7 @@
       margin-top: 0px;
       color: white;
       text-align: center;
+      margin-left: 100px;
       text-shadow: 1px 2px 1px #fff;
     }
     .btn{
@@ -158,4 +162,83 @@
     text-shadow: 1px 2px 1px #fff;
     transition:all 5s ease;
     cursor: pointer;
+  }
+  @media screen and (max-width: 490px){
+    .container{
+      width: 400px;
+      height: 300px;
+      margin-left:0px;
+    }
+    .sub-con2{
+      margin-top:90px;
+      margin-left: 90px;
+    }
+    .btn{
+      margin-top: 10px;
+      
+      width: 200px;
+      font-size: 20px;
+      transition:all 5s ease;
+      cursor: pointer;
+    }
+    
+  }
+  @media screen and (max-width: 420px){
+    .container{
+      width: 350px;
+      height: 250px;
+      margin-left:4%;
+    }
+    .sub-con2{
+      margin-top:90px;
+      margin-left: 90px;
+    }
+    .btn{
+      margin-top: 10px;
+      
+      width: 200px;
+      font-size: 20px;
+      transition:all 5s ease;
+      cursor: pointer;
+    }
+    
+  }
+  @media screen and (max-width: 380px){
+    .container{
+      width: 320px;
+      height: 240px;
+      margin-left:4%;
+    }
+    .sub-con2{
+      margin-top:90px;
+      margin-left: 60px;
+    }
+    .btn{
+      margin-top: 10px;
+      
+      width: 200px;
+      font-size: 15px;
+      transition:all 5s ease;
+      cursor: pointer;
+    }
+    
+  }
+  @media screen and (max-width: 340px){
+    .container{
+      width: 300px;
+      height: 300px;
+      margin-left:4%;
+    }
+    .sub-con2{
+      margin-top:50px;
+      margin-left: 60px;
+    }
+    .btn{
+      margin-top: 15px;
+      width: 200px;
+      font-size: 15px;
+      transition:all 5s ease;
+      cursor: pointer;
+    }
+    
   }
