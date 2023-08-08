@@ -52,6 +52,8 @@ const Content = () => {
 
     } catch (error) {
 
+      setLoading(false);
+
       message.error('Something Went Wrong!! Please try again.')
 
       console.log(error);
