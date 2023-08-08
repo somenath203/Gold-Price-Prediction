@@ -1,131 +1,133 @@
+label {
+  color: white;
+  font-size: 20px;
 
-label{
-    color: white;
-    font-size: 20px;
-   
-    margin-left: 10px;
-}   
+  margin-left: 10px;
+}
 input {
-    border: none;
-    border-bottom: 1px solid white;
-    background-color: transparent;
-    color: white;
-    font-size: 20px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    width: 100%;
-    padding-left: 10px;
-  }
-  
-.form-container {
-    width: 400px; /* Set the desired width */
-    height: 550px; /* Set the desired height */
-    margin: 150px auto; /* Center the container horizontally */
-    border: 1px solid white; /* White border */
-    background-color: transparent; /* Transparent background */
-    border-radius: 20px; /* Rounded edges */
-    padding: 20px; /* Add some padding for spacing */
-    box-shadow: 1px 1px 5px #fff;
-    backdrop-filter: blur(4px);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-  }
-  @media screen and (max-width: 768px) {
-    .form-container {
-      width: 300px;
-      height: 400px;
-      margin: 100px auto;
-    }
-  }
-  /* Add some hover effects to buttons */
-  .form-container .btn-2:hover {
-    background-color: white;
-    color: black;
-    box-shadow: 1px 1px 5px #fff;
-    text-shadow: 1px 2px 1px #fff;
-  }
-  .form-container label {
-    color: white; /* White font color for labels */
-    font-size: 16px;
-  }
-  
-  .form-container input[type="text"] {
-    color: white; /* Black text color for input fields */
-    font-size: 14px;
-    border: none; /* Remove default border */
-    border-bottom: 1px solid white; /* Add a bottom border to create the line effect */
-    padding: 0; /* Remove padding to have a cleaner look */
-    margin: 0; /* Remove margin to have a cleaner look */
-    width: 100%; /* Make the input fields occupy the full width of the container */
-    margin-bottom: 10px; /* Add some space between each input field */
-  }
-  
-  .form-container .btn {
-    border: 1px solid white;
-    width: 100%;
-    border-radius: 20px;
-    height: 50px;
-    background-color: transparent;
-    color: white;
-    font-size: 25px;
-    box-shadow: 4px 8px 5px #fff;
-    text-shadow: 1px 2px 1px #fff;
-    transition: all .5s ease;
-    cursor: pointer;
-  }
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  padding-left: 10px;
+}
 
-  .btn-2{
-    border: 1px solid white;
-    width: 50%;
-    border-radius: 20px;
-    height: 50px;
-    background-color: transparent;
-    color: white;
-    font-size: 20px;
-    box-shadow: 1px 1px 5px #fff;
-    text-shadow: 1px 2px 1px #fff;
-    transition: all 5s ease;
-    cursor: pointer;
-    /* filter blur */
-   
-  }
-  .form-container .mar{
-    margin-left: 85px;
-  }
-  input:focus {
-    outline: none;
-    
-  }
-  /* animation for .form-container */
+.form-container {
+  width: 400px; /* Set the desired width */
+  height: 550px; /* Set the desired height */
+  margin: 50px auto; /* Center the container horizontally */
+  border: 1px solid white; /* White border */
+  background-color: transparent; /* Transparent background */
+  border-radius: 20px; /* Rounded edges */
+  padding: 20px; /* Add some padding for spacing */
+  box-shadow: 1px 1px 5px #fff;
+  backdrop-filter: blur(4px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+@media screen and (max-width: 768px) {
   .form-container {
-    animation: form 1s ease-in-out;
+    width: 300px;
+    height: 400px;
+    margin: 100px auto;
   }
-  .form-container:hover {
-    box-shadow: 1px 1px 5px #fff;
-    
-    animation: tild 1s ease-in-out;
+}
+/* Add some hover effects to buttons */
+.form-container .btn-2:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 1px 1px 5px #fff;
+  text-shadow: 1px 2px 1px #fff;
+}
+.form-container label {
+  color: white; /* White font color for labels */
+  font-size: 16px;
+}
+
+.form-container input[type='number'] {
+  color: white; /* Black text color for input fields */
+  font-size: 14px;
+  border: none; /* Remove default border */
+  border-bottom: 1px solid white; /* Add a bottom border to create the line effect */
+  padding: 0; /* Remove padding to have a cleaner look */
+  margin: 0; /* Remove margin to have a cleaner look */
+  width: 100%; /* Make the input fields occupy the full width of the container */
+  margin-bottom: 10px; /* Add some space between each input field */
+}
+
+.form-container .btn {
+  border: 1px solid white;
+  width: 100%;
+  border-radius: 20px;
+  height: 50px;
+  background-color: transparent;
+  color: white;
+  font-size: 25px;
+  box-shadow: 4px 8px 5px #fff;
+  text-shadow: 1px 2px 1px #fff;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.btn-2 {
+  border: 1px solid white;
+  width: 50%;
+  border-radius: 20px;
+  height: 50px;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  box-shadow: 1px 1px 5px #fff;
+  text-shadow: 1px 2px 1px #fff;
+  transition: all 5s ease;
+  cursor: pointer;
+  /* filter blur */
+}
+.form-container .mar {
+  margin-left: 85px;
+}
+input:focus {
+  outline: none;
+}
+/* animation for .form-container */
+.form-container {
+  animation: form 1s ease-in-out;
+}
+.form-container:hover {
+  box-shadow: 1px 1px 5px #fff;
+
+  animation: tild 1s ease-in-out;
+  transition: all 8s ease-in-out;
+}
+@keyframes form {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+    transform: rotate(25deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    transform: rotate(0deg);
+  }
+}
+@keyframes tild {
+  0% {
+    transform: rotate(-25deg);
+  }
+  100% {
+    transform: rotate(0deg);
     transition: all 8s ease-in-out;
   }
-  @keyframes form {
-    0% {
-      opacity: 0;
-      transform: translateY(-100px);
-      transform:rotate(25deg);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-      transform:rotate(0deg);
-    }
-  }
-  @keyframes tild {
-   
-    0% {
-      transform:rotate(-25deg);
-    }
-    100% {
-      transform:rotate(0deg);
-      transition: all 8s ease-in-out;
-    }
-  }
+}
+
+.predicted-price {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}

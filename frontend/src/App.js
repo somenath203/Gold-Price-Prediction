@@ -1,8 +1,8 @@
 import React from "react"
 import LandingPage from "./Components/LandingPage"
 import Content from "./Components/Content"
+import Result from './Components/Result';
 import { BrowserRouter , Route, Routes } from "react-router-dom"
-import Result from "./Components/Result"
 
 
 const App = () => {
