@@ -76,11 +76,11 @@ const Content = () => {
         <label htmlFor="lname">EUR/USD:</label><br />
         <input type="number" id="lname" name="lname" placeholder='enter the ratio of Euro and US Dollar' onChange={(e) => setEuroUsd(e.target.value)} required /><br />
         <br />
-        <input className='btn-2' type="submit" value={loading ? "Predicting" : "Submit"} />
+        <input className='btn-2' type="submit" disabled={loading ? true : false} value={loading ? "Predicting" : "Submit"} />
       </form>
 
     </div>
   )
 }
 
-export default Content
+export default Content;
